@@ -18,6 +18,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
+- (IBAction)showFunFact {
+    NSArray *facts = [[NSArray alloc] initWithObjects: @"Ants stretch when they wake up", @"Ostriches can run faster than horses", nil];
+    self.funFactLabel.text = [facts objectAtIndex: 1];
+}
+
 
 
 @end
+
+
+
