@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "FactBook.h"
 
 @interface ViewController ()
 
@@ -16,11 +17,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.factBook = [[FactBook alloc] init];
+    self.funFactLabel.text = [self.factBook.facts objectAtIndex:0];
 }
+
+-(void)didReceiveMemoryWarning{
+    [super didReceiveMemoryWarning];
+    //dispose of any resources that can be recreated
+}
+
 - (IBAction)showFunFact {
-    NSArray *facts = [[NSArray alloc] initWithObjects: @"Ants stretch when they wake up", @"Ostriches can run faster than horses", nil];
-    self.funFactLabel.text = [facts objectAtIndex: 1];
+    self.funFactLabel.text = [self.factBook.facts objectAtIndex: 1];
 }
 
 
