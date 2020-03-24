@@ -1,5 +1,5 @@
 //
-//  FactBook.h
+//  ColorWheel.h
 //  FunFacts
 //
 //  Created by MIchelle Medina on 3/23/20.
@@ -7,14 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface FactBook : NSObject
+@interface ColorWheel : NSObject
 
-@property (strong, nonatomic) NSArray *facts;
+@property (strong, nonatomic) NSArray *colors;
 
-- (NSString *)randomFact;
+- (UIColor *)randomColor;
 
 @end
 

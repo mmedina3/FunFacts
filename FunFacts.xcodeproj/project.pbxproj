@@ -16,6 +16,7 @@
 		66335D7922EBA93C009B6B43 /* FunFactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66335D7822EBA93C009B6B43 /* FunFactsTests.m */; };
 		66335D8422EBA93C009B6B43 /* FunFactsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66335D8322EBA93C009B6B43 /* FunFactsUITests.m */; };
 		6673ECEF24297F580087EADC /* FactBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 6673ECEE24297F580087EADC /* FactBook.m */; };
+		6673ECF22429A83F0087EADC /* ColorWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6673ECF12429A83F0087EADC /* ColorWheel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		66335D8522EBA93C009B6B43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6673ECED24297F580087EADC /* FactBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactBook.h; sourceTree = "<group>"; };
 		6673ECEE24297F580087EADC /* FactBook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactBook.m; sourceTree = "<group>"; };
+		6673ECF02429A83F0087EADC /* ColorWheel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorWheel.h; sourceTree = "<group>"; };
+		6673ECF12429A83F0087EADC /* ColorWheel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorWheel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				66335D6322EBA93A009B6B43 /* ViewController.m */,
 				6673ECED24297F580087EADC /* FactBook.h */,
 				6673ECEE24297F580087EADC /* FactBook.m */,
+				6673ECF02429A83F0087EADC /* ColorWheel.h */,
+				6673ECF12429A83F0087EADC /* ColorWheel.m */,
 				66335D6522EBA93A009B6B43 /* Main.storyboard */,
 				66335D6822EBA93C009B6B43 /* Assets.xcassets */,
 				66335D6A22EBA93C009B6B43 /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 				66335D6F22EBA93C009B6B43 /* main.m in Sources */,
 				6673ECEF24297F580087EADC /* FactBook.m in Sources */,
 				66335D6122EBA93A009B6B43 /* AppDelegate.m in Sources */,
+				6673ECF22429A83F0087EADC /* ColorWheel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
