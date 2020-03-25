@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Mixpanel/Mixpanel.h"
 
 @interface AppDelegate ()
 
@@ -18,6 +19,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     [application setStatusBarStyle:UIStatusBarStyleLightContent];
+    
+    [Mixpanel sharedInstanceWithToken:@"f50fea1c18f1e49133b82ccdd503cc7a"];
+    Mixpanel *mixpanel = [Mixpanel sharedInstance];
+    [mixpanel track:@"App Launched"];
+    
     return YES;
 }
 
